@@ -9,7 +9,7 @@
 ## 大作业内容
 
 * [病人病历数据库](http://www.trec-cds.org/2017.html) xml格式与txt格式前者是官方给定标准数据集格式，后者是为方便处理。官方文档是两者都可使用的，但是要以xml为准！
-* 查询见[topic.xml](./topic.xml)和[extra_topics2017.pdf](./extra_topics2017) 通常做法是将disease字段作为查询，其他字段作为辅助。
+* 查询见[topic.xml](./topic.xml)和[extra_topics2017.pdf](./extra_topics2017.pdf) 通常做法是将disease字段作为查询，其他字段作为辅助。
 * 提交结果形式：<查询ID> Q0 <> Q0 <文档ID> Q0 <> <文档排序> <文档评分> <系统ID> Q0 <>
 * 评价指标——P@10 计算方法 可自己编写，也可以使用trec_eval脚本计算
 * 5折交叉验证——3部分训练，1部分验证，1部分测试
