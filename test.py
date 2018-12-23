@@ -15,6 +15,4 @@ def preprocess(cont):
     cont = re.sub(r'[%s]+'%punctuation, '', cont)
     return cont
 
-cont_list = load_data_lines('../data/medline0.txt')
-cont_list = list(map(preprocess, cont_list))
-print(cont_list)
+print(punctuation)

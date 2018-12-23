@@ -17,10 +17,24 @@
 
 ## 完成方法
 
-* 建立倒排索引（必做，已从康哲舟出拷贝）
-* BM25模型（戚亚涛，必做，且已实现）
-* 界面（张家瑞，必做，正在编写）
+* 建立[倒排索引](./clinicallevel_cleaned_txt.json)（必做，已从康哲舟出拷贝）
+* BM25模型（戚亚涛，已完成）
+* 界面（张家瑞，已完成）
 * 词干还原（戚亚涛，必做，正在编写）
 * 查询扩展（张路，优化，正在编写）
-* 寻找医学语料库（张路，优化，正在寻找）
+* 寻找医学语料库（张路，已完成）
+* 相关反馈（待定）
 * 实验报告编写（石瑞聪，卢丽婧）
+
+## 文件说明
+
+* [main.py](./main.py) 主程序文件
+* [bm25.py](./bm25.py) BM25模型
+* [query.py](./query.py) 查询文件
+* [word2vec.py](./word2vec.py) 训练词向量
+* [data_helpers.py](./data_helpers.py) 读取数据文件
+* [util.py](./util.py) 工具文件
+* [test.py](./test.py) 测试编程想法
+* [vocab.pkl](./vocab.pkl) 词典文件
+* [w2id.pkl](./w2id.pkl) 词与id字典
+* [id2w.pkl](./id2w.pkl) id与词字典

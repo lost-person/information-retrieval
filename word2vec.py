@@ -3,6 +3,28 @@
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
 from utils import *
+import collections
+
+
+def build_vocab(data_path, vocab_path, w2id_path, id2w_path, min_cnt = 3):
+    '''
+    构建字典
+
+    Args:
+        data_path str 数据路径
+        vocab_path str 词典路径
+        min_cnt int 低频词阈值
+    '''
+    word_counter = collections.Counter()
+    sentences = load_data_lines(data_path)
+    for sent in sentences:
+        word_counter.update(sent)
+    vocabulary_inv = ['<UNK>'] + [x[0] for x in word_counter.most_common() if x[1] >= min_cnt]
+    w2id = {x : i for i, x in enumerate(vocabulary_inv)}
+    id2w = {i : x for i, x in enumerate(vocabulary_inv)}
+    pickle_dump(vocab_path, vocabulary_inv)
+    pickle_dump(w2id_path, w2id)
+    pickle_dump(id2w_path, id2w)
 
 def word_embedding(data_path, model_path, size = 128, window = 10, min_cnt = 3):
     '''
@@ -31,4 +53,8 @@ def load_model(model_path):
 if __name__ == '__main__':
     data_path = './medline.txt'
     model_path = './w2v.model'
-    word_embedding(data_path, model_path)
+    vocab_path = './vocab.pkl'
+    w2id_path = './w2id.pkl'
+    id2w_path = './id2w.pkl'
+    # word_embedding(data_path, model_path)
+    build_vocab(data_path, vocab_path, w2id_path, id2w_path)

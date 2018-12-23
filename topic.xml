@@ -1,59 +1,59 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<topics task="2017 TREC Precision Medicine">
-<topic number="1">
-<disease>Liposarcoma</disease>
-<gene>CDK4 Amplification</gene>
-<demographic>38-year-old male</demographic>
-<other>GERD</other>
-</topic>
-<topic number="2">
-<disease>Colon cancer</disease>
-<gene>KRAS (G13D), BRAF (V600E)</gene>
-<demographic>52-year-old male</demographic>
-<other>Type II Diabetes, Hypertension</other>
-</topic>
-<topic number="3">
-<disease>Meningioma</disease>
-<gene>NF2 (K322), AKT1(E17K)</gene>
-<demographic>45-year-old female</demographic>
-<other>None</other>
-</topic>
-<topic number="4">
-<disease>Breast cancer</disease>
-<gene>FGFR1 Amplification, PTEN (Q171)</gene>
-<demographic>67-year-old female</demographic>
-<other>Depression, Hypertension, Heart Disease</other>
-</topic>
-<topic number="5">
-<disease>Melanoma</disease>
-<gene>BRAF (V600E), CDKN2A Deletion</gene>
-<demographic>45-year-old female</demographic>
-<other>None</other>
-</topic>
-<topic number="6">
-<disease>Melanoma</disease>
-<gene>NRAS (Q61K)</gene>
-<demographic>55-year-old male</demographic>
-<other>Hypertension</other>
-</topic>
-<topic number="7">
-<disease>Lung cancer</disease>
-<gene>EGFR (L858R)</gene>
-<demographic>50-year-old female</demographic>
-<other>Lupus</other>
-</topic>
-<topic number="8">
-<disease>Lung cancer</disease>
-<gene>EML4-ALK Fusion transcript</gene>
-<demographic>52-year-old male</demographic>
-<other>Hypertension, Osteoarthritis</other>
-</topic>
-<topic number="9">
-<disease>Gastrointestinal stromal tumor</disease>
-<gene>KIT Exon 9 (A502_Y503dup)</gene>
-<demographic>49-year-old female</demographic>
-<other>None</other>
-</topic>
+<?xml version="1.0" encoding="utf-8"?>
+    <topics task="2017 TREC Precision Medicine">
+        <topic number="1">
+            <disease>Liposarcoma</disease>
+            <gene>CDK4 Amplification</gene>
+            <demographic>38-year-old male</demographic>
+            <other>GERD</other>
+        </topic>
+        <topic number="2">
+            <disease>Colon cancer</disease>
+            <gene>KRAS (G13D), BRAF (V600E)</gene>
+            <demographic>52-year-old male</demographic>
+            <other>Type II Diabetes, Hypertension</other>
+        </topic>
+        <topic number="3">
+            <disease>Meningioma</disease>
+            <gene>NF2 (K322), AKT1 (E17K)</gene>
+            <demographic>45-year-old female</demographic>
+            <other>None</other>
+        </topic>
+        <topic number="4">
+            <disease>Breast cancer</disease>
+            <gene>FGFR1 Amplification, PTEN (Q171)</gene>
+            <demographic>67-year-old female</demographic>
+            <other>Depression, Hypertension, Heart Disease</other>
+        </topic>
+        <topic number="5">
+            <disease>Melanoma</disease>
+            <gene>BRAF (V600E), CDKN2A Deletion</gene>
+            <demographic>45-year-old female</demographic>
+            <other>None</other>
+        </topic>
+        <topic number="6">
+            <disease>Melanoma</disease>
+            <gene>NRAS (Q61K)</gene>
+            <demographic>55-year-old male</demographic>
+            <other>Hypertension</other>
+        </topic>
+        <topic number="7">
+            <disease>Lung cancer</disease>
+            <gene>EGFR (L858R)</gene>
+            <demographic>50-year-old female</demographic>
+            <other>Lupus</other>
+        </topic>
+        <topic number="8">
+            <disease>Lung cancer</disease>
+            <gene>EML4-ALK Fusion transcript</gene>
+            <demographic>52-year-old male</demographic>
+            <other>Hypertension, Osteoarthritis</other>
+        </topic>
+        <topic number="9">
+            <disease>Gastrointestinal stromal tumor</disease>
+            <gene>KIT Exon 9 (A502_Y503dup)</gene>
+            <demographic>49-year-old female</demographic>
+            <other>None</other>
+        </topic>
 <topic number="10">
 <disease>Lung adenocarcinoma</disease>
 <gene>KRAS (G12C)</gene>
@@ -188,7 +188,7 @@ This XML file does not appear to have any style information associated with it. 
 </topic>
 <topic number="32">
 <disease>Colon cancer</disease>
-<gene>Microsatellite Instability (high); MLH1 methylation positive</gene>
+<gene>Microsatellite Instability (high), MLH1 methylation positive</gene>
 <demographic>65-year-old male</demographic>
 <other>Hypercholesterolemia</other>
 </topic>

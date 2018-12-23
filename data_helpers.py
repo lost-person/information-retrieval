@@ -14,7 +14,7 @@ doc_list = os.listdir(doc_path)
 # 进程锁
 lock = multiprocessing.Lock()
 
-def start_load(rate = 0.025, process_num = 4):
+def start_load(rate = 0.5, process_num = 4):
     '''
     根据文档集数创建相应个数的IO线程，指定它们读取文档集的范围
 
@@ -31,6 +31,7 @@ def start_load(rate = 0.025, process_num = 4):
     cont_list = []
     i = 0
     print('create ' + str(process_num) + ' processes')
+    print('start loading data...')
     while True:
         start = i * range_num
         if start > doc_size:
@@ -45,17 +46,17 @@ def start_load(rate = 0.025, process_num = 4):
     save_data_lines(os.path.join('../data', 'medline.txt'), cont_list)
     print('data loaded!')
 
-# def preprocess(cont):
-#     '''
-#     对文档内容进行预处理，用于map函数
+def preprocess(cont):
+    '''
+    对文档内容进行预处理，用于map函数
 
-#     Args:
-#         cont str 未预处理的文档内容中的一行
-#     Returns:
-#         cont str 预处理之后的文档内容中的一行
-#     '''
-#     cont = re.sub(r'[%s]+'%punctuation, '', cont)
-#     return cont
+    Args:
+        cont str 未预处理的文档内容中的一行
+    Returns:
+        cont str 预处理之后的文档内容中的一行
+    '''
+    cont = re.sub(r'[{%s}]+'%punctuation, '', cont)
+    return cont
 
 def load_doc(start, end):
     '''
@@ -82,5 +83,4 @@ def load_doc(start, end):
 
 if __name__ == '__main__':
     # 根据文件夹数创建对应的IO进程
-    print('start loading data...')
-    start_load()
+    start_load(process_num = 4)
