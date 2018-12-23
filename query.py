@@ -63,7 +63,8 @@ def build_query(data_path, w2v_path, vocab_path, k):
     vocab = pickle_load(vocab_path)
     query_list = []
     # 解析xml文档
-    query_dict = xml_parse(data_path)
+    qurey_dict = {'disease' : [], 'gene' : [], 'demographic' : [], 'other' : []}
+    query_dict = xml_parse(data_path, qurey_dict, qurey_dict.keys())
     disease_field_list = query_dict['disease']
     gene_field_list = query_dict['gene']
     demographic_field_list = query_dict['demographic']

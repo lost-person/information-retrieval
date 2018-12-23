@@ -3,17 +3,25 @@
 from query import build_query
 from word2vec import load_model
 from bm25 import BM25, computePrecision
+import os
 import time
+from utils import *
+import shutil
 
 '''
 query_path str 查询文件路径
 w2v_path str 词向量路径
 vocab_path str 词典文件
+invert_table_path str 倒排表路径
+doc_path str 文档路径
+res_path str 结果存储路径
 '''
 query_path = './topic.xml'
 w2v_path = '../data/w2v.model'
 vocab_path = './vocab.pkl'
 invert_table_path = './clinicallevel_cleaned_txt.json'
+doc_path = '../assignment/clinicaltrials_xml'
+res_path = './res/'
 
 '''
 查询权重
@@ -49,8 +57,24 @@ def start_query(bm, query_list, weight_list, k):
         res.append(res_tmp)
     return res
 
-if __name__ == '__main__': 
+def get_doc(doc_id_list, res_file_path):
+    '''
+    根据doc_id，获取对应的文本内容（目前是摘要），并存储
+
+    Args:
+        doc_id_list list 文档id列表
+        res_file_path str 文档存储路径
+    '''
+    qurey_dict = {'brief_title' : [], 'brief_summary' : [], 'detailed_description' : []}
+    doc_list = os.listdir(doc_path)
+    for doc_id in doc_id_list:
+        doc_id += '.xml'
+        qurey_dict = xml_parse(os.path.join(doc_path, doc_id), qurey_dict, qurey_dict.keys(), 0)
+        save_data_dict(res_file_path, qurey_dict)
+
+if __name__ == '__main__':
     start = time.time()
+    # cut_file('E:\learning\Information Retrieval\data\medline_txt', 'E:\learning\Information Retrieval\data\\tmp')
     # 构建查询
     query_list = build_query(query_path, w2v_path, vocab_path, k1)
     # bm模型
@@ -60,6 +84,11 @@ if __name__ == '__main__':
     # 查询
     weight_list = [diease_w, gene_w, demographic_w, other_w]
     res = start_query(bm, query_list, weight_list, k2)
+    if os.path.exists(res_path):
+        shutil.rmtree(res_path)
+    os.makedirs(res_path)
+    for i, doc_id_list in enumerate(res):
+        get_doc(doc_id_list, os.path.join(res_path, str(i) + '.txt'))
     # # 计算p@10
     # computePrecision(0, res[:10])
     end = time.time()
