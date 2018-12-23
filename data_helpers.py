@@ -71,13 +71,14 @@ def load_doc(start, end):
     cont_list = []
     for i in range(start, end + 1):
         doc_dir = doc_list[i]
+        print('reading... ' + doc_dir)
         file_list = os.listdir(os.path.join(doc_path, doc_dir))
         for doc in file_list:
             # lock.acquire()
             cont_list.extend(load_data_lines_v2(os.path.join(doc_path, doc_dir, doc)))
             # lock.release()
     # 对数据进行预处理
-    # cont_list = list(map(preprocess, cont_list))
+    cont_list = list(map(preprocess, cont_list))
     save_data_lines(os.path.join('../data', 'medline' + str(start) + '.txt'), cont_list)
     return cont_list
 

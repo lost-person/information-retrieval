@@ -4,17 +4,6 @@ from word2vec import load_model
 from utils import *
 from data_helpers import preprocess
 
-def gene_split(gene_field):
-    '''
-    基因字段有特殊格式
-
-    Args:
-        gene_field str 基因字段
-    Returns:
-        gene_list list 切分后的gene字段
-    '''
-    pass
-
 def demographic_split(demographic_field):
     '''
     人口信息字段有特殊格式
@@ -34,28 +23,27 @@ def demographic_split(demographic_field):
     demographic_list.append(sex)
     return demographic_list
 
-def query_extension(field_list, query_dict, w2v_model, vocab, k):
+def query_extension(field_list, w2v_model, vocab, k):
     '''
     查询扩展
     
     Args:
         field_list list 相应字段的列表
-        query_dict dict 扩展前的查询字典（键为查询词，值为相近词）
         w2v_model bin 词向量模型
         vocab list 词典
         k int 前k个相近词
     Returns:
         query_dict dict 扩展后的查询字典（键为查询词，值为相近词）
     '''
+    query_dict = {}
     for query in field_list:
+        if query not in query_dict.keys():
+            query_dict[query] = []
         if query not in vocab:
             continue
         sim_word_list = w2v_model.wv.most_similar_cosmul(query, topn = k)
         for word, _ in sim_word_list:
-            if query in query_dict.keys():
-                query_dict[query].append(word)
-            else:
-                query_dict[query] = [word]
+            query_dict[query].append(word)
     return query_dict
 
 def build_query(data_path, w2v_path, vocab_path, k):
@@ -80,9 +68,10 @@ def build_query(data_path, w2v_path, vocab_path, k):
     gene_field_list = query_dict['gene']
     demographic_field_list = query_dict['demographic']
     other_field_list = query_dict['other']
+    del query_dict
     # 遍历查询
     for i in range(len(disease_field_list)):
-        query_tmp_dict = {}
+        query_tmp_list = []
         # 获取一条查询的查询词
         disease_field_list[i] = preprocess(disease_field_list[i])
         disease_list = disease_field_list[i].split(' ')
@@ -92,9 +81,9 @@ def build_query(data_path, w2v_path, vocab_path, k):
         other_list = other_field_list[i].split(' ')
         demographic_list = demographic_split(demographic_field_list[i])     
         # 查询扩展
-        query_tmp_dict = query_extension(disease_list, query_tmp_dict, w2v_model, vocab, k)
-        query_tmp_dict = query_extension(gene_list, query_tmp_dict, w2v_model, vocab, k)
-        query_tmp_dict = query_extension(demographic_list, query_tmp_dict, w2v_model, vocab, k)
-        query_tmp_dict = query_extension(other_list, query_tmp_dict, w2v_model, vocab, k)
-        query_list.append(query_tmp_dict)
+        query_tmp_list.append(query_extension(disease_list, w2v_model, vocab, k))
+        query_tmp_list.append(query_extension(gene_list, w2v_model, vocab, k))
+        query_tmp_list.append(query_extension(demographic_list, w2v_model, vocab, k))
+        query_tmp_list.append(query_extension(other_list, w2v_model, vocab, k))
+        query_list.append(query_tmp_list)
     return query_list
