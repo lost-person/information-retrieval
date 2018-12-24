@@ -1,39 +1,49 @@
+doc_id:NCT02264665.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT01946854.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT01121562.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT02294006.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT01525550.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT01744249.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT02806648.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT02282059.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT02820857.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software
 
+doc_id:NCT02230176.xml
 brief_title:Observational Study In Real Life Settings Of The Systemic Treatment Of Well Differentiated, Unresectable Or Metastatic, Progressive Pancreatic Neuroendocrine Tumors (pNET): A Study Of Morbidity And Mortality At 2 Years
 brief_summary:A descriptive, prospective (partly retrospective), multisite, observational study conducted in France in adult patients treated for a well differentiated, unresectable or metastatic, pancreatic neuroendocrine tumor with disease progression.
 detailed_description:prospective and retrospective Analyses will be performed using SAS® software

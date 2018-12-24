@@ -1,39 +1,49 @@
+doc_id:NCT02044926.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT00198081.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT03062124.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT01104077.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT00621556.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT00988416.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT00828048.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT01485679.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT01525706.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN
 
+doc_id:NCT02113501.xml
 brief_title:Intraductal Papillary Mucinous Neoplasm With Malignant Change
 brief_summary:Purpose:  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012.  Hypothesis: According to 2012 consensus guidelines, enhanced solid component and main pancreatic duct size of larger than 10 mm will be significant.
 detailed_description:1. Purpose  -  To investigate diagnostic performance of CT and MR in intraductal papillary mucinous neoplasm with malignant change according to international consensus guidelines 2012  2. Enroll criteria  -  Patient who is suspected to have pancreas IPMN on imaging  -  Interval between imaging study and surgery is less than 2 months  -  Who is scheduled for surgery due to IPMN

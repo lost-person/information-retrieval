@@ -103,6 +103,7 @@ def save_data_dict(data_path, data):
         data dict 存储数据
     '''
     with open(data_path, 'a+', encoding = 'utf-8') as f:
+        doc_id = data['doc_id']
         if len(data['brief_title']) == 0:
             brief_title = ''
         else:
@@ -121,7 +122,7 @@ def save_data_dict(data_path, data):
             detailed_description_list = detailed_description.split('\n')
             detailed_description = clean(detailed_description_list)
             detailed_description = detailed_description.strip(' ')
-        f.write('brief_title:' + brief_title + '\n' + 'brief_summary:' + brief_summary 
+        f.write('doc_id:' + doc_id[0] + '\n' + 'brief_title:' + brief_title + '\n' + 'brief_summary:' + brief_summary 
             + '\n' +'detailed_description:' + detailed_description + '\n' + '\n')
         
 def pickle_load(data_path):
@@ -164,19 +165,19 @@ def traverseXML(element, qurey_dict, keys):
             traverseXML(child, qurey_dict, keys)
     return qurey_dict
 
-def xml_parse(data_path, qurey_dict, keys, flag = 1):
+def xml_parse(data_path, query_dict, keys, flag = 1):
     '''
     xml文件解析
 
     Args:
         data_path str xml文件路径
     Returns:
-        qurey_dict dict 查询字典
+        query_dict dict 查询字典
     '''
     tree = et.parse(data_path)
     root = tree.getroot()
-    traverseXML(root, qurey_dict, keys)
-    return qurey_dict
+    traverseXML(root, query_dict, keys)
+    return query_dict
 
 def cut_file(src_path, des_path):
     '''
