@@ -36,7 +36,12 @@
 * [word2vec.py](./word2vec.py) 训练词向量
 * [data_helpers.py](./data_helpers.py) 读取数据文件
 * [util.py](./util.py) 工具文件
+* [SPIMI.py](./SPIMI.py) 倒排表构建文件
 * [test.py](./test.py) 测试编程想法
+* [clinical_trials.judgments.2017.csv](./clinical_trials.judgments.2017.csv) 标准查询结果
 * [vocab.pkl](./vocab.pkl) 词典文件
 * [w2id.pkl](./w2id.pkl) 词与id字典
 * [id2w.pkl](./id2w.pkl) id与词字典
+* [./trec_eval_latest](./trec_eval_latest) trec_eval工具（用于计算准确率）
+* [./IR界面](./IR界面) 界面
+* [topic.xml](./topic.xml) 查询文件
