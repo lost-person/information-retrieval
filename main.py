@@ -90,6 +90,8 @@ if __name__ == '__main__':
     # for i, doc_id_list in enumerate(res):
     #     get_doc(doc_id_list, os.path.join(res_path, str(i) + '.txt'))+
     # 计算p@10
-    computePrecision(0, res[0][:10])
+    from test import eval_file
+    eval_file(res)
+    computePrecision(0, res[0][0][:10])
     end = time.time()
     print(end - start)
