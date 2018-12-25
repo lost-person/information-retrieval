@@ -15,13 +15,15 @@ vocab_path str 词典文件
 invert_table_path str 倒排表路径
 doc_path str 文档路径
 res_path str 结果存储路径
+eval_path str 评估结果存储路径
 '''
 query_path = './topic.xml'
 w2v_path = '../data/w2v.model'
 vocab_path = './vocab.pkl'
-invert_table_path = './clinicallevel_cleaned_txt.json'
+invert_table_path = '../data/invert_table/clinicaltrials_cleaned_txt.json'
 doc_path = '../assignment/clinicaltrials_xml'
 res_path = './res/'
+eval_path = './eval/'
 
 '''
 查询权重
@@ -75,7 +77,6 @@ def get_doc(doc_id_list, res_file_path):
 
 if __name__ == '__main__':
     start = time.time()
-    
     # 构建查询
     query_list = build_query(query_path, w2v_path, vocab_path, k1)
     # bm模型
@@ -85,12 +86,13 @@ if __name__ == '__main__':
     # 查询
     weight_list = [diease_w, gene_w, demographic_w, other_w]
     res = start_query(bm, query_list, weight_list, k2)
-    if os.path.exists(res_path):
-        shutil.rmtree(res_path)
-    os.makedirs(res_path)
-    for i, doc_id_list in enumerate(res):
-        get_doc(doc_id_list, os.path.join(res_path, str(i) + '.txt'))
-    # # 计算p@10
-    # computePrecision(0, res[:10])
+    # if os.path.exists(res_path):
+    #     shutil.rmtree(res_path)
+    # os.makedirs(res_path)
+    # for i, doc_id_list in enumerate(res):
+    #     get_doc(doc_id_list, os.path.join(res_path, str(i) + '.txt'))
+    # 计算p@10
+    eval_res(res, eval_path)
+    # 获取查询文档的文本内容
     end = time.time()
     print(end - start)

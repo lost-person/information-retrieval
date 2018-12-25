@@ -98,12 +98,13 @@ class BM25 :
                         if Doc_id not in res:
                             res[Doc_id] = score * weight_group[i]
                         else:
-                            res[Doc_id] += score*weight_group[i]
+                            res[Doc_id] += score * weight_group[i]
         # 排序
         res = sorted(res.items(), key=operator.itemgetter(1))
         res.reverse()
-        res = ["NCT0" + num[0] for num in res]
-        return res[:k]
+        res_doc = ["NCT0" + num[0] for num in res]
+        res_score = [num[1] for num in res]
+        return (res_doc[:k], res_score[:k])
 
 def computePrecision(query_id, top_k, k = 10):
     '''
@@ -115,8 +116,8 @@ def computePrecision(query_id, top_k, k = 10):
         k int k的值
     '''
     label = pd.read_csv('clinical_trials.judgments.2017.csv')
-    label = label[['trec_topic_number','trec_doc_id']]
-    true_doc = label[label.trec_topic_number ==(query_id+1)].trec_doc_id
+    label = label[['trec_topic_number', 'trec_doc_id']]
+    true_doc = label[label.trec_topic_number == (query_id + 1)].trec_doc_id
     true_doc = list(true_doc)
     positive_true = 0
     for i in top_k:
@@ -127,7 +128,7 @@ def computePrecision(query_id, top_k, k = 10):
 if __name__ == '__main__':
     bm_model = BM25(k1 = 2, k3 = 1, b = 0.75, N = 241006, avg_l = 300)
     bm_model.build("./clinicallevel_cleaned_txt.json")
-    res = bm_model.query(["Liposarcoma","CDK4","Amplification","38-year-old","male","GERD"],[5,5,5,5,5,5])
+    res = bm_model.query(["Liposarcoma","CDK4","Amplification","38-year-old","male","GERD"], [5,5,5,5,5,5], 5)
     # 查询([查询词项],[各词项权重])
     computePrecision(0, res[:10], 10)
     # 计算准确率(查询id,res[:k],k)

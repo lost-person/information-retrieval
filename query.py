@@ -42,8 +42,8 @@ def query_extension(field_list, w2v_model, vocab, k):
         if query not in vocab:
             continue
         sim_word_list = w2v_model.wv.most_similar_cosmul(query, topn = k)
-        for word, _ in sim_word_list:
-            query_dict[query].append(word)
+        extend_list = [word for word, _ in sim_word_list]
+        query_dict[query] = clean_data(extend_list)
     return query_dict
 
 def build_query(data_path, w2v_path, vocab_path, k):
@@ -80,11 +80,16 @@ def build_query(data_path, w2v_path, vocab_path, k):
         gene_list = gene_field_list[i].split(' ')
         other_list = preprocess(other_field_list[i])
         other_list = other_field_list[i].split(' ')
-        demographic_list = demographic_split(demographic_field_list[i])     
-        # 查询扩展
-        query_tmp_list.append(query_extension(disease_list, w2v_model, vocab, k))
-        query_tmp_list.append(query_extension(gene_list, w2v_model, vocab, k))
-        query_tmp_list.append(query_extension(demographic_list, w2v_model, vocab, k))
-        query_tmp_list.append(query_extension(other_list, w2v_model, vocab, k))
+        demographic_list = demographic_split(demographic_field_list[i])
+        # 对原始查询就行词性还原与去停用词操作
+        disease_clean_list = clean_data(disease_list)
+        gene_clean_list = clean_data(gene_list)
+        demographic_clean_list = clean_data(demographic_list)
+        other_clean_list = clean_data(other_list)
+        # 查询扩展(含词干还原和去停用词操作)
+        query_tmp_list.append(query_extension(disease_clean_list, w2v_model, vocab, k))
+        query_tmp_list.append(query_extension(gene_clean_list, w2v_model, vocab, k))
+        query_tmp_list.append(query_extension(demographic_clean_list, w2v_model, vocab, k))
+        query_tmp_list.append(query_extension(other_clean_list, w2v_model, vocab, k))
         query_list.append(query_tmp_list)
     return query_list
