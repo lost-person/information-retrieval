@@ -231,3 +231,19 @@ def clean(data):
         sent = sent.strip(' ')
         cont += sent + ' '
     return cont
+
+def eval_res(res, eval_path):
+    '''
+    评估结果，并将结果写入文件
+
+    Args:
+        res tuple 查询结果
+        res_path str 结果存储文件
+    '''
+    res_list = []
+    for query_id, query_res in enumerate(res):
+        i = 1
+        for doc_id, score in query_res:
+            res_list.append(str(query_id + 1) + " Q0 " + str(doc_id) + " " + str(i) + " " + str(doc_score) + " myrun")
+            i += 1
+    save_data_lines(eval_path, res_list)

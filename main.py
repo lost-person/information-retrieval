@@ -15,6 +15,7 @@ vocab_path str 词典文件
 invert_table_path str 倒排表路径
 doc_path str 文档路径
 res_path str 结果存储路径
+eval_path str 评估结果存储路径
 '''
 query_path = './topic.xml'
 w2v_path = '../data/w2v.model'
@@ -22,6 +23,7 @@ vocab_path = './vocab.pkl'
 invert_table_path = '../data/invert_table/clinicaltrials_cleaned_txt.json'
 doc_path = '../assignment/clinicaltrials_xml'
 res_path = './res/'
+eval_path = './eval/'
 
 '''
 查询权重
@@ -88,10 +90,9 @@ if __name__ == '__main__':
     #     shutil.rmtree(res_path)
     # os.makedirs(res_path)
     # for i, doc_id_list in enumerate(res):
-    #     get_doc(doc_id_list, os.path.join(res_path, str(i) + '.txt'))+
+    #     get_doc(doc_id_list, os.path.join(res_path, str(i) + '.txt'))
     # 计算p@10
-    from test import eval_file
-    eval_file(res)
-    computePrecision(0, res[0][0][:10])
+    eval_res(res, eval_path)
+    # 获取查询文档的文本内容
     end = time.time()
     print(end - start)

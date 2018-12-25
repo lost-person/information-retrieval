@@ -104,7 +104,7 @@ class BM25 :
         res.reverse()
         res_doc = ["NCT0" + num[0] for num in res]
         res_score = [num[1] for num in res]
-        return [res_doc[:k],res_score[:k]]
+        return (res_doc[:k], res_score[:k])
 
 def computePrecision(query_id, top_k, k = 10):
     '''

@@ -124,4 +124,4 @@ def process_doc(src_path, des_path):
 if __name__ == '__main__':
     # 根据文件夹数创建对应的IO进程
     # start_load(process_num = 4)
-    process_doc('../data/test/corpus.txt', '../data/test/corpus_stem.txt')
+    process_doc('../data/test/corpus.txt', '../data/test/corpus_clean.txt')
