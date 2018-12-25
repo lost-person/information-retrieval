@@ -51,10 +51,10 @@ def load_model(model_path):
     return model
 
 if __name__ == '__main__':
-    data_path = './medline.txt'
-    model_path = './w2v.model'
+    data_path = '../data/test/sum2.txt'
+    model_path = '../data/w2v.model'
     vocab_path = './vocab.pkl'
     w2id_path = './w2id.pkl'
     id2w_path = './id2w.pkl'
-    # word_embedding(data_path, model_path)
+    word_embedding(data_path, model_path)
     build_vocab(data_path, vocab_path, w2id_path, id2w_path)

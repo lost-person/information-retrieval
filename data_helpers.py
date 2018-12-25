@@ -74,14 +74,48 @@ def load_doc(start, end):
         print('reading... ' + doc_dir)
         file_list = os.listdir(os.path.join(doc_path, doc_dir))
         for doc in file_list:
-            # lock.acquire()
             cont_list.extend(load_data_lines_v2(os.path.join(doc_path, doc_dir, doc)))
-            # lock.release()
     # 对数据进行预处理
     cont_list = list(map(preprocess, cont_list))
     save_data_lines(os.path.join('../data', 'medline' + str(start) + '.txt'), cont_list)
     return cont_list
 
+def data_clean(sent_list):
+    '''
+    对文本的清理
+
+    Args:
+        sent_list list 列表形式的文本内容
+    Returns:
+        sent_list list 处理好的文本内容
+    '''
+    for i in range(len(sent_list)-1, -1, -1):
+        sent_list[i] = sent_list[i].strip(' ')
+        # 删除文件中的空行
+        if sent_list[i] == '\n' :
+            sent_list.pop(i)
+    return sent_list
+
+
+def process_doc(src_path, des_path):
+    '''
+    文件清理，并写入指定文件
+    
+    Args:
+        src_path str 原路径
+        des_path str 目标路径
+    '''
+    cont_list = []
+    doc_list = os.listdir(src_path)
+    for i, doc in enumerate(doc_list):
+        cont_list.extend(load_data_lines_v2(os.path.join(src_path, doc))) 
+        if i + 1 == len(doc_list) or (i + 1) % 300000 == 0:
+            print('loaded %d'%(i + 1) + ' docs')
+            cont_list = list(map(preprocess, cont_list))
+            save_data_lines(os.path.join(des_path, str(i + 1) + '.txt'), cont_list)
+            cont_list = []
+    
 if __name__ == '__main__':
     # 根据文件夹数创建对应的IO进程
-    start_load(process_num = 4)
+    # start_load(process_num = 4)
+    process_doc('../data/tmp/', '../data/test')

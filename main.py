@@ -65,16 +65,17 @@ def get_doc(doc_id_list, res_file_path):
         doc_id_list list 文档id列表
         res_file_path str 文档存储路径
     '''
-    qurey_dict = {'brief_title' : [], 'brief_summary' : [], 'detailed_description' : []}
+    query_dict = {'brief_title' : [], 'brief_summary' : [], 'detailed_description' : []}
     doc_list = os.listdir(doc_path)
     for doc_id in doc_id_list:
         doc_id += '.xml'
-        qurey_dict = xml_parse(os.path.join(doc_path, doc_id), qurey_dict, qurey_dict.keys(), 0)
-        save_data_dict(res_file_path, qurey_dict)
+        query_dict = xml_parse(os.path.join(doc_path, doc_id), query_dict, query_dict.keys(), 0)
+        query_dict['doc_id'] = [doc_id]
+        save_data_dict(res_file_path, query_dict)
 
 if __name__ == '__main__':
     start = time.time()
-    # cut_file('E:\learning\Information Retrieval\data\medline_txt', 'E:\learning\Information Retrieval\data\\tmp')
+    
     # 构建查询
     query_list = build_query(query_path, w2v_path, vocab_path, k1)
     # bm模型
