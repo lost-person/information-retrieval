@@ -3,6 +3,8 @@
 import xml.etree.ElementTree as et
 import os
 import pickle
+from nltk import WordNetLemmatizer
+from nltk.corpus import stopwords
 
 def load_data(data_path):
     '''
@@ -194,6 +196,27 @@ def cut_file(src_path, des_path):
             if os.path.isfile(os.path.join(des_path, target_file)):
                 os.remove(os.path.join(des_path, target_file))
             os.rename(os.path.join(root, target_file), os.path.join(des_path, target_file))
+
+def clean_data(query_list):
+    '''
+    对查询进行词干还原与去停用词
+
+    Args:
+        query_list list 原始的查询
+    Returns:
+        query_clean_list list 词干还原和去停用词之后的查询
+    '''
+    # 导入词性还原与停用词
+    wnl = WordNetLemmatizer()
+    sw = stopwords.words('english')
+    # 扩展后的查询
+    query_clean_list = []
+    for query in query_list:
+        query = query.lower()
+        query = wnl.lemmatize(query)
+        if query not in sw:
+            query_clean_list.append(query)
+    return query_clean_list
 
 def clean(data):
     '''

@@ -6,6 +6,7 @@ import re
 import multiprocessing
 import math
 from utils import *
+from tqdm import tqdm
 
 # 文件路径
 doc_path = '../data/medline_txt'
@@ -96,7 +97,6 @@ def data_clean(sent_list):
             sent_list.pop(i)
     return sent_list
 
-
 def process_doc(src_path, des_path):
     '''
     文件清理，并写入指定文件
@@ -105,17 +105,23 @@ def process_doc(src_path, des_path):
         src_path str 原路径
         des_path str 目标路径
     '''
-    cont_list = []
-    doc_list = os.listdir(src_path)
-    for i, doc in enumerate(doc_list):
-        cont_list.extend(load_data_lines_v2(os.path.join(src_path, doc))) 
-        if i + 1 == len(doc_list) or (i + 1) % 300000 == 0:
-            print('loaded %d'%(i + 1) + ' docs')
-            cont_list = list(map(preprocess, cont_list))
-            save_data_lines(os.path.join(des_path, str(i + 1) + '.txt'), cont_list)
-            cont_list = []
+    # cont_list = []
+    # doc_list = os.listdir(src_path)
+    # for doc in doc_list:
+    #     print('reading doc:' + doc)
+    #     cont_list.extend(load_data_lines(os.path.join(src_path, doc)))
+    # save_data_lines(os.path.join(des_path, 'corpus.txt'), cont_list)
+    cont_list = load_data_lines(src_path)
+    for i in tqdm(range(len(cont_list))):
+        cont_tmp_list = cont_list[i].split(' ')
+        cont_tmp_list = clean_data(cont_tmp_list)
+        cont_list[i] = ''
+        for cont in cont_tmp_list:
+            cont_list[i] += cont + ' '
+        cont_list[i] = cont_list[i].strip(' ')
+    save_data_lines(des_path, cont_list)
     
 if __name__ == '__main__':
     # 根据文件夹数创建对应的IO进程
     # start_load(process_num = 4)
-    process_doc('../data/tmp/', '../data/test')
+    process_doc('../data/test/corpus.txt', '../data/test/corpus_stem.txt')
