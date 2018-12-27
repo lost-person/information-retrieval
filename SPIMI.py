@@ -82,30 +82,6 @@ def Create_Level_Invertable(FILE, clean=False):
         fw.write(dic)
     print("finsh spimi")
 
-#进行正则匹配，进行优化索引
-# age = re.search(r'Gender: .*\sAge', "Gender: All\nAge: 14 Years to 35 Years")
-# print(age)，论文中提到 构建查询扩展：人口信息 age and gender, 查询扩展使用了NCI词库， gene and variants
-def Create_extra_Invertable(FILE, clean=False):
-    dic = dict()
-    filelist = os.listdir(FILE + "\\")
-    N = len(filelist)
-    for (i, filename) in enumerate(filelist):
-        if i / 100 == 0:
-            print("PRCESSING:", i / N)
-        with open(FILE + "\\" + filename, "r") as fr:
-            file = fr.read()
-            fr.close()
-
-        dic = CreateInvertTable_SPIMI(dic, FILE + "\\", filename, clean, title)
-    dic = json.dumps(dic)
-    if clean:
-        fname = "clinicallevel_cleaned_txt.json"
-    else:
-        fname = "clinicallevel_unclean_txt.json"
-    with open(fname, "w", encoding="utf-8") as fw:
-        fw.write(dic)
-    print("finsh spimi")
-
 if __name__ == '__main__':
     
 

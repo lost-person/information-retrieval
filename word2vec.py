@@ -47,7 +47,9 @@ def load_model(model_path):
     Args:
         model_path str 载入模型
     '''
+    print("载入词向量")
     model = Word2Vec.load(model_path)
+    print("载入词向量完毕")
     return model
 
 if __name__ == '__main__':

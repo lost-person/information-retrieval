@@ -1,50 +1,75 @@
-doc_id:NCT02788006.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
+doc_id:NCT00900224.xml
+brief_title:S
+brief_summary:
 detailed_description:
 
-doc_id:NCT01900717.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
+doc_id:NCT02827565.xml
+brief_title:T
+brief_summary:
 detailed_description:
 
-doc_id:NCT02335151.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT01066507.xml
+brief_title:D
+brief_summary:
+detailed_description:
 
-doc_id:NCT01989624.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT01669265.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT02976090.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT01363232.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT02896946.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT01337765.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT02843711.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT00897702.xml
+brief_title:M
+brief_summary:
+detailed_description:
 
-doc_id:NCT02818231.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT02501551.xml
+brief_title:R
+brief_summary:
+detailed_description:
 
-doc_id:NCT02653612.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT02506556.xml
+brief_title:P
+brief_summary:
+detailed_description:
 
-doc_id:NCT01946100.xml
-brief_title:Phase II Study Evaluating the Efficacy and the Safety of Regorafenib in Patients Aged More Than 70 Years With a Metastatic Colorectal Adenocarcinoma .
-brief_summary:Multicenter prospective phase II study evaluating regorafenib in older patients with metastatic colorectal cancer
-detailed_description:This prospective, randomized study will be conducted over a 36-month period to investigate whether commonly used anesthetics (volatile versus intravenous) have an effect on the changes or occurrence of CTC in patients suffering from primary pancreatic cancer undergoing curative surgery. The specific research question is if there are changes of the CTC count in the postoperative phase in the desflurane group (intervention) compared to the propofol one (control). A secondary question is if these changes can be correlated to tumor outcome.
+doc_id:NCT01998906.xml
+brief_title:A
+brief_summary:
+detailed_description:
+
+doc_id:NCT01722890.xml
+brief_title:C
+brief_summary:
+detailed_description:
+
+doc_id:NCT02053636.xml
+brief_title:A
+brief_summary:
+detailed_description:
+
+doc_id:NCT00950742.xml
+brief_title:P
+brief_summary:
+detailed_description:
+
+doc_id:NCT01168050.xml
+brief_title:E
+brief_summary:
+detailed_description:
+
+doc_id:NCT00721409.xml
+brief_title:S
+brief_summary:
+detailed_description:
 

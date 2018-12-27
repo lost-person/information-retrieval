@@ -1,10 +1,13 @@
 # coding = utf-8
 
 import xml.etree.ElementTree as et
+import re
 import os
 import pickle
+from string import punctuation
 from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
+import shutil
 
 def load_data(data_path):
     '''
@@ -147,27 +150,7 @@ def pickle_dump(data_path, data):
     with open(data_path, 'wb') as f:
         pickle.dump(data, f)
 
-def traverseXML(element, qurey_dict, keys):
-    '''
-    递归遍历xml文件
-
-    Args:
-        element xml中的结点
-        keys set/list 需要获取的结点
-    '''
-    if len(element) > 0:
-        for child in element:
-            if child.tag in keys:
-                if child.tag == 'brief_summary' or child.tag == 'detailed_description':
-                    for son in child:
-                        qurey_dict[child.tag].append(son.text)
-                else:
-                    qurey_dict[child.tag].append(child.text)
-                continue
-            traverseXML(child, qurey_dict, keys)
-    return qurey_dict
-
-def xml_parse(data_path, query_dict, keys, flag = 1):
+def xml_parse(data_path, query_dict, flag = 1):
     '''
     xml文件解析
 
@@ -177,8 +160,20 @@ def xml_parse(data_path, query_dict, keys, flag = 1):
         query_dict dict 查询字典
     '''
     tree = et.parse(data_path)
-    root = tree.getroot()
-    traverseXML(root, query_dict, keys)
+    if flag == 1:
+        root = tree.getroot()
+        for value in root.iter('topic'):
+            query_dict['disease'].append(value[0].text)
+            query_dict['gene'].append(value[1].text)
+            query_dict['demographic'].append(value[2].text)
+            query_dict['other'].append(value[3].text)
+    else:
+        query_dict['brief_title'] = tree.find('brief_title').text
+        query_dict['brief_summary'] = tree.find('brief_summary').find('textblock').text
+        try:
+            query_dict['detailed_description'] = tree.find('detailed_description').find('textblock').text
+        except AttributeError:
+            pass
     return query_dict
 
 def cut_file(src_path, des_path):
@@ -191,7 +186,7 @@ def cut_file(src_path, des_path):
     '''
     if not os.path.isdir(des_path):
         os.mkdir(des_path)
-    for root, sub_dirs, files in os.walk(src_path):
+    for root, _, files in os.walk(src_path):
         for target_file in files:
             if os.path.isfile(os.path.join(des_path, target_file)):
                 os.remove(os.path.join(des_path, target_file))
@@ -234,16 +229,60 @@ def clean(data):
 
 def eval_res(res, eval_path):
     '''
-    评估结果，并将结果写入文件
+    将查询结果写入文件
 
     Args:
         res tuple 查询结果
         res_path str 结果存储文件
     '''
-    res_list = []
+    result = ''
     for query_id, query_res in enumerate(res):
         i = 1
-        for doc_id, score in query_res:
-            res_list.append(str(query_id + 1) + " Q0 " + str(doc_id) + " " + str(i) + " " + str(doc_score) + " myrun")
+        doc_id_list, doc_score_list = query_res
+        for j in range(len(doc_id_list)):
+            result += (str(query_id + 1) + " Q0 " + str(doc_id_list[j]) + " " + str(i) + " " + str(doc_score_list[j]) + " myrun\n")
             i += 1
-    save_data_lines(eval_path, res_list)
+    save_data(eval_path, result)
+
+def preprocess(cont):
+    '''
+    对文档内容进行预处理，用于map函数
+
+    Args:
+        cont str 未预处理的文档内容中的一行
+    Returns:
+        cont str 预处理之后的文档内容中的一行
+    '''
+    cont = re.sub(r'[{%s}]+'%punctuation, '', cont)
+    return cont
+
+def get_doc(doc_id, res_file_path, doc_path):
+    '''
+    根据doc_id，获取对应的文本内容（目前是摘要），并存储
+
+    Args:
+        doc_id int 文档id
+        res_file_path str 文档存储路径
+    '''
+    # 相关文档的返回内容
+    query_dict = {'brief_title' : [], 'brief_summary' : [], 'detailed_description' : []}
+    doc_id += '.xml'
+    query_dict = xml_parse(os.path.join(doc_path, doc_id), query_dict, 0)
+    query_dict['doc_id'] = [doc_id]
+    save_data_dict(res_file_path, query_dict)
+
+def get_doc_cont(res, res_path, doc_path):
+    '''
+    返回相关文档的内容，并存储
+
+    Args:
+        res tuple 查询结果
+        res_path str 存储路径
+    '''
+    if os.path.exists(res_path):
+        shutil.rmtree(res_path)
+    os.makedirs(res_path)
+    for quert_id, query_res in enumerate(res):
+        doc_id_list, _ = query_res
+        for doc_id in doc_id_list:
+            get_doc(doc_id, os.path.join(res_path, str(quert_id + 1) + '.txt'), doc_path)

@@ -1,50 +1,75 @@
-doc_id:NCT02941861.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT00826982.xml
+brief_title:M
+brief_summary:
+detailed_description:
 
-doc_id:NCT02791750.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT02451384.xml
+brief_title:A
+brief_summary:
+detailed_description:
 
-doc_id:NCT02228668.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT01656824.xml
+brief_title:T
+brief_summary:
+detailed_description:
 
-doc_id:NCT03002766.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT01155882.xml
+brief_title:R
+brief_summary:
+detailed_description:
 
-doc_id:NCT02819557.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT02670746.xml
+brief_title:A
+brief_summary:
+detailed_description:
 
-doc_id:NCT01248533.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT03042442.xml
+brief_title:R
+brief_summary:
+detailed_description:
 
-doc_id:NCT02637570.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT00644254.xml
+brief_title:T
+brief_summary:
+detailed_description:
 
-doc_id:NCT02821533.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT02050997.xml
+brief_title:P
+brief_summary:
+detailed_description:
 
-doc_id:NCT02794077.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT02109445.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT02757846.xml
-brief_title:Factors Influencing the 3-Year Recurrence of Liver Carcinoma After Surgery
-brief_summary:Objective:  1. To study the factors that influence the 3- year recurrence of liver carcinoma after surgery  2. To study the related factors affecting recurrence of liver carcinoma after surgery
-detailed_description:Liver carcinoma including 80% Hepatocellular carcinoma (HCC) and 20% Cholangiocarcinoma (CCA) becomes the leading causes of death in East and South-East Asia. Though hepatectomy is the treatment of choice for early stage cancer, the recurrence has been reported as 30%, 62% and 79% in 1st, 3rd and 5th year respectively. Chulabhorn hospital, a cancer institute established in 2011, has been performing a 3-years retrospective study on the influencing factors and its correlation to liver carcinoma after surgery.
+doc_id:NCT02362048.xml
+brief_title:A
+brief_summary:
+detailed_description:
+
+doc_id:NCT00490360.xml
+brief_title:N
+brief_summary:
+detailed_description:
+
+doc_id:NCT02150135.xml
+brief_title:E
+brief_summary:
+detailed_description:
+
+doc_id:NCT00471146.xml
+brief_title:S
+brief_summary:
+detailed_description:
+
+doc_id:NCT03060720.xml
+brief_title:S
+brief_summary:
+detailed_description:
+
+doc_id:NCT01942629.xml
+brief_title:P
+brief_summary:
+detailed_description:
 

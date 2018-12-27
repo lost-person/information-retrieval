@@ -1,50 +1,75 @@
-doc_id:NCT02289053.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
+doc_id:NCT00897481.xml
+brief_title:S
+brief_summary:
 detailed_description:
 
-doc_id:NCT02213107.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT00422448.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT01428752.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT01543113.xml
+brief_title:c
+brief_summary:
+detailed_description:
 
-doc_id:NCT01383473.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT02862743.xml
+brief_title:M
+brief_summary:
+detailed_description:
 
-doc_id:NCT00277160.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT01363232.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT01026116.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT01337765.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT02000011.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT01320085.xml
+brief_title:A
+brief_summary:
+detailed_description:
 
-doc_id:NCT02008955.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT00955578.xml
+brief_title:G
+brief_summary:
+detailed_description:
 
-doc_id:NCT00365378.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT02854124.xml
+brief_title:T
+brief_summary:
+detailed_description:
 
-doc_id:NCT00224484.xml
-brief_title:Prevalence and Topography of Adenomas in 40-49 Year Old Patients With a Family History of Colon Cancer
-brief_summary:Conflicting guideline recommendations for screening colonoscopy result due to scant data upon which to develop appropriate recommendations. No previous study has compared the prevalence of advanced adenomas or adenomas (any size) among 40-49 year old individuals with a first degree relative (FDR) with colorectal cancer (CRC) versus 40-49 year old average risk individuals with no family history of CRC. The purpose of this study is to determine the prevalence of colon adenomas in 40-49 year old individuals and identify risk factors associated with the presence of advanced adenomas. This data will provide evidence to determine appropriate colon cancer screening guidelines in 40-49 year old persons with a family history of colon polyps or colorectal cancer.
-detailed_description:The primary objective of this study is to determine the effect of enzalutamide and dutasteride on the time to prostatic-specific antigen progression in patients aged 65 or older receiving this combination as first line treatment for systemic prostate cancer.  To determine the safety and toxicities of the study drug combination.  To determine the time to prostatic-specific antigen nadir from the start of study treatment and to evaluate the absolute prostatic-specific antigen nadir as a result of the study drug combination
+doc_id:NCT01781572.xml
+brief_title:A
+brief_summary:
+detailed_description:
+
+doc_id:NCT02975700.xml
+brief_title:A
+brief_summary:
+detailed_description:
+
+doc_id:NCT01763164.xml
+brief_title:S
+brief_summary:
+detailed_description:
+
+doc_id:NCT02404935.xml
+brief_title:T
+brief_summary:
+detailed_description:
+
+doc_id:NCT02399943.xml
+brief_title:A
+brief_summary:
+detailed_description:
+
+doc_id:NCT01801904.xml
+brief_title:A
+brief_summary:
+detailed_description:
 

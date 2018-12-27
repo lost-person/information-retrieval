@@ -1,50 +1,75 @@
-doc_id:NCT02819557.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
+doc_id:NCT01904968.xml
+brief_title:I
+brief_summary:
 detailed_description:
 
-doc_id:NCT01248533.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT02860780.xml
+brief_title:A
+brief_summary:
+detailed_description:
 
-doc_id:NCT02637570.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT01667419.xml
+brief_title:B
+brief_summary:
+detailed_description:
 
-doc_id:NCT02593630.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT01588860.xml
+brief_title:M
+brief_summary:
+detailed_description:
 
-doc_id:NCT01948492.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT01108107.xml
+brief_title:N
+brief_summary:
+detailed_description:
 
-doc_id:NCT01943266.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT01338558.xml
+brief_title:A
+brief_summary:
+detailed_description:
 
-doc_id:NCT02787967.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT00405587.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT02404324.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT01573494.xml
+brief_title:S
+brief_summary:
+detailed_description:
 
-doc_id:NCT02149485.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT01198743.xml
+brief_title:P
+brief_summary:
+detailed_description:
 
-doc_id:NCT02000492.xml
-brief_title:Study of Ataluren in ≥2 to <5 Year-Old Males With Duchenne Muscular Dystrophy
-brief_summary:This is a Phase 2, multiple-dose, open-label study evaluating the safety, and pharmacokinetics (PK) of ataluren in patients aged ≥2 to <5 years old with Duchenne muscular dystrophy caused by a nonsense mutation in the dystrophin gene. The study includes a 4-week screening period, a 4-week study period, and a 48-week extension period for patients who complete the 4-week study period (52 weeks total treatment).
-detailed_description:The invited population will be offered ultrasound investigation of their abdominal aorta. Further information regarding risk factors will be noted and measurement of ankle-brachial index will be measured/calculated. A further step in the future will be to sample blood with focus on different cytokines and genmediators.
+doc_id:NCT01804530.xml
+brief_title:P
+brief_summary:
+detailed_description:
+
+doc_id:NCT02014909.xml
+brief_title:A
+brief_summary:
+detailed_description:
+
+doc_id:NCT01417442.xml
+brief_title:B
+brief_summary:
+detailed_description:
+
+doc_id:NCT02595645.xml
+brief_title:G
+brief_summary:
+detailed_description:
+
+doc_id:NCT00865709.xml
+brief_title:S
+brief_summary:
+detailed_description:
+
+doc_id:NCT01867697.xml
+brief_title:N
+brief_summary:
+detailed_description:
 

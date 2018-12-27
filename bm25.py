@@ -4,15 +4,13 @@ import math
 import json
 import operator
 from collections import Counter
-import pandas as pd
-import numpy as np
-from utils import *
+from utils import load_data
 
 class BM25 :
     '''
     BM25模型
     '''
-    def __init__(self, k1 = 2, k3 = 8, b = 0.75, N = 241006, avg_l = 300):
+    def __init__(self, k1 = 2, k3 = 1, b = 0.75, N = 241006, avg_l = 300):
         '''
         BM25模型超参数
 
@@ -53,7 +51,7 @@ class BM25 :
             query_list.extend(v)
         return query_list
 
-    def query(self, word_group, weight_group, k):
+    def query(self, word_group, k):
         '''
         根据BM25模型计算得分并排序
 
@@ -61,7 +59,16 @@ class BM25 :
             word_group list 查询词
             weight_group list 查询词的权重
             k int 返回前k个
+        Returns
+            (res_doc[:k], res_score[:k]) list 查询文档id和得分
         '''
+        weight = 0
+        for i in range(4):
+            for _, value in word_group[i].items():
+                weight += len(value) 
+        if weight < 5:
+            weight = 5
+    
         # 获取查询
         disease_query_dict = word_group[0]
         gene_query_dict = word_group[1]
@@ -95,10 +102,16 @@ class BM25 :
                         # 文档长度
                         ld = float(id_tf_ld[2])
                         score = qtf / (self.k3 + qtf) * (self.k1 + tf) / (tf + self.k1 * (1 - self.b + self.b * ld / self.avg_l)) * math.log2((self.N - df + 0.5) / (df + 0.5))
-                        if Doc_id not in res:
-                            res[Doc_id] = score * weight_group[i]
+                        if word in word_dict.keys():
+                            if Doc_id not in res:
+                                res[Doc_id] = score * (weight - i)
+                            else:
+                                res[Doc_id] += score * (weight - i)
                         else:
-                            res[Doc_id] += score * weight_group[i]
+                            if Doc_id not in res:
+                                res[Doc_id] = score * 0.9
+                            else:
+                                res[Doc_id] += score * 0.9
         # 排序
         res = sorted(res.items(), key=operator.itemgetter(1))
         res.reverse()
@@ -106,29 +119,7 @@ class BM25 :
         res_score = [num[1] for num in res]
         return (res_doc[:k], res_score[:k])
 
-def computePrecision(query_id, top_k, k = 10):
-    '''
-    计算p@10
-
-    Args:
-        query_id int 查询id
-        top_k list 前k个文档的id
-        k int k的值
-    '''
-    label = pd.read_csv('clinical_trials.judgments.2017.csv')
-    label = label[['trec_topic_number', 'trec_doc_id']]
-    true_doc = label[label.trec_topic_number == (query_id + 1)].trec_doc_id
-    true_doc = list(true_doc)
-    positive_true = 0
-    for i in top_k:
-        if i in true_doc:
-            positive_true+=1
-    print(positive_true / k)
-
 if __name__ == '__main__':
     bm_model = BM25(k1 = 2, k3 = 1, b = 0.75, N = 241006, avg_l = 300)
     bm_model.build("./clinicallevel_cleaned_txt.json")
-    res = bm_model.query(["Liposarcoma","CDK4","Amplification","38-year-old","male","GERD"], [5,5,5,5,5,5], 5)
-    # 查询([查询词项],[各词项权重])
-    computePrecision(0, res[:10], 10)
-    # 计算准确率(查询id,res[:k],k)
+    res = bm_model.query(["Liposarcoma","CDK4","Amplification","38-year-old","male","GERD"], 5)

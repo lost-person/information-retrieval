@@ -1,8 +1,7 @@
 # coding = utf-8
 
 from word2vec import load_model
-from utils import *
-from data_helpers import preprocess
+from utils import pickle_load, clean_data, xml_parse, preprocess
 
 def demographic_split(demographic_field):
     '''
@@ -64,7 +63,7 @@ def build_query(data_path, w2v_path, vocab_path, k):
     query_list = []
     # 解析xml文档
     qurey_dict = {'disease' : [], 'gene' : [], 'demographic' : [], 'other' : []}
-    query_dict = xml_parse(data_path, qurey_dict, qurey_dict.keys())
+    query_dict = xml_parse(data_path, qurey_dict, 1)
     disease_field_list = query_dict['disease']
     gene_field_list = query_dict['gene']
     demographic_field_list = query_dict['demographic']
@@ -81,7 +80,7 @@ def build_query(data_path, w2v_path, vocab_path, k):
         other_list = preprocess(other_field_list[i])
         other_list = other_field_list[i].split(' ')
         demographic_list = demographic_split(demographic_field_list[i])
-        # 对原始查询就行词性还原与去停用词操作
+        # 对原始查询进行词性还原与去停用词操作
         disease_clean_list = clean_data(disease_list)
         gene_clean_list = clean_data(gene_list)
         demographic_clean_list = clean_data(demographic_list)
@@ -89,7 +88,27 @@ def build_query(data_path, w2v_path, vocab_path, k):
         # 查询扩展(含词干还原和去停用词操作)
         query_tmp_list.append(query_extension(disease_clean_list, w2v_model, vocab, k))
         query_tmp_list.append(query_extension(gene_clean_list, w2v_model, vocab, k))
-        query_tmp_list.append(query_extension(demographic_clean_list, w2v_model, vocab, k))
         query_tmp_list.append(query_extension(other_clean_list, w2v_model, vocab, k))
+        tmp_dict = {}
+        for tmp in demographic_clean_list:
+            tmp_dict[tmp] = []
+        query_tmp_list.append(tmp_dict)
         query_list.append(query_tmp_list)
     return query_list
+
+def start_query(bm, query_list, k):
+    '''
+    开始查询
+
+    Args:
+        bm cls bm25模型
+        query_list list 全部查询
+        k int 返回前k个文档
+    Returns:
+        res list 查询结果
+    '''
+    res = []
+    for query_tmp_list in query_list:
+        res_tmp = bm.query(query_tmp_list, k)
+        res.append(res_tmp)
+    return res
